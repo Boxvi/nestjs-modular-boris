@@ -1,3 +1,9 @@
+<h1>VARIABLES DE ENTORNO</h1>
+
+$env:NODE_ENV = 'prod'; npm run start:dev
+$env:NODE_ENV = 'dev'; npm run start:dev
+$env:NODE_ENV = 'test'; npm run start:dev
+
 <p align="center">
   <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo_text.svg" width="320" alt="Nest Logo" /></a>
 </p>
