@@ -2,7 +2,7 @@
 FROM node:18
 
 # Configura el directorio de trabajo en el contenedor
-WORKDIR /usr/src/app
+WORKDIR /src/app
 
 # Copia los archivos de la aplicación en el contenedor
 COPY . .
