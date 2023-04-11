@@ -8,7 +8,7 @@ WORKDIR /usr/src/app
 COPY . .
 
 # Instala las dependencias de la aplicación
-RUN npm install
+RUN npm install --force
 
 # Expone el puerto 3000
 EXPOSE 3000
