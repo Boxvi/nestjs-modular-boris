@@ -14,4 +14,4 @@ RUN npm install --force
 EXPOSE 3000
 
 # Especifica el comando de inicio de la aplicación
-CMD ["node", "main.js"]
+CMD ["npm", "run", "start:prod"]
